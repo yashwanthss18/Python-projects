@@ -1,8 +1,8 @@
 # python3 -m pip install openpyxl 
-#use this to install the openpyxl package in python
+
 
 import openpyxl as xl
-from openpyxl.chart import BarChart, Reference  #from chart module two classes BarChart and Reference are imported
+from openpyxl.chart import BarChart, Reference  
 
 def process_workbook(filename):
     wb = xl.load_workbook(filename) # storing in workbook object
